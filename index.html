@@ -1,59 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Simple Interface</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f0f2f5;
-      margin: 0;
-      padding: 20px;
-    }
-    .container {
-      max-width: 400px;
-      margin: 50px auto;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      padding: 10px 20px;
-      background: #007bff;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    #output {
-      margin-top: 20px;
-      font-weight: bold;
-    }
-  </style>
+  <title>My Blog</title>
 </head>
 <body>
-  <div class="container">
-    <h2>Basic HTML Interface</h2>
-    <input type="text" id="inputField" placeholder="Type something...">
-    <button onclick="showOutput()">Submit</button>
-    <div id="output"></div>
-  </div>
 
-  <script>
-    function showOutput() {
-      const input = document.getElementById("inputField").value;
-      document.getElementById("output").textContent = "You typed: " + input;
-    }
-  </script>
+  <h1>My Blog</h1>
+
+  <!-- Blog Post 1 -->
+  <div>
+    <h2>Blog Title Goes Here</h2>
+    <p>
+      Write your paragraph content here. This is where your blog content will go. You can add more <p> tags if needed.
+    </p>
+  </div>
+  <hr>
+
+  <!-- Blog Post 2 -->
+  <div>
+    <h2>Another Blog Title</h2>
+    <p>
+      Keep adding your blog posts like this. Title in <h2>, content in <p>. Just repeat this format for new blogs.
+    </p>
+  </div>
+  <hr>
+
+  <!-- Add more blog posts by copying the <div> block above -->
+
 </body>
 </html>
+
 
